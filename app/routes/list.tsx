@@ -3,7 +3,7 @@ import type { Route } from "./+types/list";
 
 export function meta({}: Route.MetaArgs) {
   return [
-    { title: "포켓몬스터" },
+    { title: "포켓몬스터" }, 
     { name: "description", content: "포켓몬 도감" },
   ];
 }
